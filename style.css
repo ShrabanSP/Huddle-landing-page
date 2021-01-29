@@ -1,0 +1,65 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-image: url(./images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  color: #fff;
+}
+.box {
+  margin: auto 100px;
+}
+.box > div {
+  margin-top: 50px;
+}
+.logo > img {
+  max-width: 60%;
+}
+.picture img {
+  width: 100%;
+}
+.details {
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+h1 {
+  margin: 20px 0px;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+p {
+  margin: 20px 0px;
+  color: rgba(231, 227, 227, 0.884);
+}
+.btn {
+  margin-top: 20px;
+  color: hsl(257, 40%, 49%);
+  width: 200px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px hsl(300, 69%, 71%) k;
+}
+.social {
+  margin-top: 0px;
+  float: right;
+  clear: both;
+}
+.social > i {
+  font-size: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .box {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .details {
+    text-align: center;
+  }
+  .social {
+    float: none;
+    text-align: center;
+  }
+}
